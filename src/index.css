@@ -8,3 +8,33 @@
 .font-inter{
     font-family: "Inter", sans-serif;
 }
+.btn-menu{
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    align-items: flex-start;
+    text-transform: uppercase;
+    gap: 10px;
+    border-radius: 8px;
+    border-top: 3px solid #1F2937;
+    border-bottom: 3px solid #1F2937;
+}
+.btn-menu:hover{
+    transition: 0.1s;
+    text-transform: uppercase;
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border-top: 3px solid rgb(250, 168, 7);
+    border-bottom: 3px solid rgb(250, 168, 7);
+}
+
+a.active{
+    color: #EAB504 !important;
+    background-color: transparent !important;
+  }
+
+  
